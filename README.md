@@ -1,4 +1,2 @@
-# learning.flask-llm-gateway
-I'm using this learning project to grow my back-end stack skills and additionally experiment with low-cost AI integration. 
-
-I will be creating a middle-ware service that simply handles task management between a generic app and llm. The service is based on this [IBM article](https://www.ibm.com/think/topics/ai-gateway).
+# study-automation-tool
+I wanted to use the opportunity presented in wanting to learn tooling & AI integration to create something that I could use. The goal with this tool is to able to automate a few tasks that I do regularly with LLMs for university, namely note summarisation and anki / flash card generation.
