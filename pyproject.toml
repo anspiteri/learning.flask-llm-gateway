@@ -1,0 +1,7 @@
+[project]
+name = "study-tool"
+version = "0.1.0"
+dependencies = ["click"]
+
+[project.scripts]
+study = "study_tool.cli:main"
