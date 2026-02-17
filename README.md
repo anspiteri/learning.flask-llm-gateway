@@ -9,6 +9,7 @@ StudyBot/
 ├── pyproject.toml
 ├── README.md
 ├── LICENSE
+├── doc/* # see "Notes" below
 └── src/
     └── study_bot/
         ├── __init__.py
@@ -26,7 +27,8 @@ StudyBot/
 ```
 
 ### Notes
-- `core` should contain all of the logic that is independent of the control layer, i.e. can be wrapped in any UI
+- `core/` should contain all of the logic that is independent of the control layer, i.e. can be wrapped in any UI
+- `doc/` see this for further documentation and notes
 - `cli.py` will be the first interface implemented. Would like to create a web API in the future for self-hosting this tool.
 - `llm` abstracts any logic that is concerned with model API interaction. This is modelled as a strategy design pattern,
 allowing each LLM clients to be interchangeable. This will helpful in the future for integrating Ollama. Initially, I will
