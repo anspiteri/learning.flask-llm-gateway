@@ -3,6 +3,15 @@ A personal study tool that automates tasks that I do regularly.
 
 I wanted to use the opportunity presented in wanting to learn tooling & AI integration to create something that I could use. The goal with this tool is to able to automate a few tasks that I do regularly with LLMs for university, namely note summarisation and anki / flash card generation.
 
+Update: I've decided to archive this project. After jumping in and testing my idea & analysing my study workflow I've reflected that optimising an interface for note-summarising and anki card generation may not be worth the additional work & maintenance when standard LLM interfaces do a good enough job, and are maintained for you.
+
+Despite this, it was good for me to even have a small crack at this idea because I've come away with the following:
+- An understanding and experience with setting up modern python projects using pyproject.toml
+- A primer to building python CLIs using Click.
+- Some experience researching and integrating external libraries with PyMuPDF
+- Some experience with the basics of AI engineering, using the Google Gemini api and library, and wiring that up to a project.
+- Some experience thinking about project structure / architecture
+
 ## Structure
 ```
 StudyBot/
